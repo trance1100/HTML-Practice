@@ -1,3 +1,8 @@
+@font-face {
+    font-family: kongtext;
+    src: url('../fonts/kongtext.ttf');
+}
+
 * {
     font-family: kongtext;
 }
@@ -9,7 +14,7 @@ body {
 .nes-container {
     width: 1000px;
     height: 500px;
-    margin: 0 auto;
+    margin: 5em auto 0;
     background-color: rgb(255, 255, 255);
 }
 
@@ -40,8 +45,9 @@ ul {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: left;
     letter-spacing: 2px;
+    align-content: inherit;
 }
 
 #box-three {
@@ -50,6 +56,6 @@ ul {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    text-align: left justify;
+    text-align: left;
     letter-spacing: 2px;
 }
