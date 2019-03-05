@@ -18,6 +18,12 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.nes-field {
+    margin-top: 15px;
+    color: white;
+    width: 500px;
+    margin: 10px 500px auto;
+}
 .intro {
     font-size: 5px;
 }
