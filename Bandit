@@ -99,3 +99,80 @@ Just change back the characters by 13 positions and you'll be able to decode the
 
 Password:
 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+Bandit Level 12 → Level 13
+Level Goal
+
+The password for the next level is stored in the file data.txt, which is a hexdump of a file 
+that has been repeatedly compressed. For this level it may be useful to create a directory 
+under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. 
+Then copy the datafile using cp, and rename it using mv (read the manpages!)
+
+Walkthrough:
+This one is honestly kinda complicated if you're just a beginner just starting out.
+But there is a lot to learn about this one level, like file compression, how to determine what type of info 
+a file contains with file command. Its very tedius to constantly uncompress files and determine the type
+and the file extensions that each command takes in.
+
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+Bandit Level 13 → Level 14
+Level Goal
+
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be 
+read by user bandit14. For this level, you don’t get the next password, but you get a 
+private SSH key that can be used to log into the next level. Note: localhost is a hostname
+that refers to the machine you are working on
+
+Walkthrough:
+This one was simple enough, you specify the ssh-key and then just use it to log in to the next level.
+From here you'll be able to obtain the 
+Password:
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+Bandit Level 14 → Level 15
+Level Goal
+
+The password for the next level can be retrieved by submitting the password of the current level
+to port 30000 on localhost.
+
+Walkthrough:
+Just as the description says, we just connect to that sever and input the password.
+And we receive the password for level 15. It was that simple!
+Also learn about ports and localhost and nc and all that good stuff.
+
+Password:
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+Bandit Level 15 → Level 16
+Level Goal
+
+The password for the next level can be retrieved by submitting the password of the current
+level to port 30001 on localhost using SSL encryption.
+
+Walkthrough:
+Just like before we connect using ssl protocol and insert the password.
+
+Password:
+cluFn7wTiGryunymYOu4RcffSxQluehd
+
+Bandit Level 13 → Level 14
+Level Goal
+
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be 
+read by user bandit14. For this level, you don’t get the next password, but you get a 
+private SSH key that can be used to log into the next level. Note: localhost is a hostname
+that refers to the machine you are working on
+
+Walkthrough:
+Just look for the port that speaks ssl, pass it the password, get the key and then pass that private RSA key 
+to ssh to log in to the next level.
+
+Password:
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
